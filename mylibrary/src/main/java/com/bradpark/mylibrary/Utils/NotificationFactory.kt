@@ -10,7 +10,6 @@ import android.graphics.Color
 import android.os.Build
 import androidx.core.app.NotificationCompat
 import android.graphics.BitmapFactory
-import com.bradpark.pjhextension.R
 import java.net.HttpURLConnection
 import java.net.URL
 
@@ -71,7 +70,7 @@ object NotificationFactory {
 
         with(builder) {
             setAutoCancel(true)
-            setSmallIcon(R.mipmap.ic_launcher)
+//            setSmallIcon(R.mipmap.ic_launcher)
             setDefaults(Notification.DEFAULT_SOUND)
             priority = NotificationCompat.PRIORITY_DEFAULT
         }
@@ -147,25 +146,25 @@ object NotificationFactory {
     }
 
     fun createBigPictureNotification(context: Context, title: String, msg: String, channelId: String,
-                                 channelName: String, notificationId: Int, pendingIntent: PendingIntent?, imgUrl: String?) {
-        val notificationManager: NotificationManager = context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
-        create(context, channelId, channelName, notificationManager).apply {
-            setContentTitle(title)
-            setContentText(msg)
-            var iconBitmap = BitmapFactory.decodeResource(context.resources, R.mipmap.ic_launcher)
-            if (imgUrl != null) {
-                setLargeIcon(getBitmap(imgUrl)?:iconBitmap)
-                setStyle(NotificationCompat.BigPictureStyle().bigLargeIcon(null).bigPicture(getBitmap(imgUrl)?:iconBitmap))
-            } else {
-                setLargeIcon(iconBitmap)
-                setStyle(NotificationCompat.BigPictureStyle().bigLargeIcon(null).bigPicture(iconBitmap))
-            }
-            pendingIntent?.let {
-                setContentIntent(it)
-            }
+                                     channelName: String, notificationId: Int, pendingIntent: PendingIntent?, imgUrl: String?, launcher_Id: Int) {
+            val notificationManager: NotificationManager = context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
+            create(context, channelId, channelName, notificationManager).apply {
+                setContentTitle(title)
+                setContentText(msg)
+                var iconBitmap = BitmapFactory.decodeResource(context.resources, launcher_Id)
+                if (imgUrl != null) {
+                    setLargeIcon(getBitmap(imgUrl)?:iconBitmap)
+                    setStyle(NotificationCompat.BigPictureStyle().bigLargeIcon(null).bigPicture(getBitmap(imgUrl)?:iconBitmap))
+                } else {
+                    setLargeIcon(iconBitmap)
+                    setStyle(NotificationCompat.BigPictureStyle().bigLargeIcon(null).bigPicture(iconBitmap))
+                }
+                pendingIntent?.let {
+                    setContentIntent(it)
+                }
 
-            notificationManager.notify(notificationId, this.build())
-        }
+                notificationManager.notify(notificationId, this.build())
+            }
     }
 
     fun cancelNotification(context: Context, notificationId: Int, channelId: String) {

@@ -1,7 +1,7 @@
 package com.bradpark.pjhextension.Utils
 
 import android.util.Log
-import com.bradpark.pjhextension.BuildConfig
+import com.bradpark.mylibrary.BuildConfig
 
 class Logger {
     companion object {
