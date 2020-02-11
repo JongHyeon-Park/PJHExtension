@@ -1,4 +1,4 @@
-package com.bradpark.pjhextension.Utils
+package com.bradpark.mylibrary.Utils
 
 import java.util.*
 
@@ -16,7 +16,7 @@ class DateUtil {
             var before = Calendar.getInstance()
             val now = Calendar.getInstance()
             before.timeInMillis = beforeMillisecond
-            before.add(Calendar.DATE,DateConst.THIRTY_DAY)        //30일 더하기
+            before.add(Calendar.DATE, DateConst.THIRTY_DAY)        //30일 더하기
             if(before.timeInMillis >= now.timeInMillis) {
                 value = true
             }

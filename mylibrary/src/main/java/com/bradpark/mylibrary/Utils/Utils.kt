@@ -1,4 +1,4 @@
-package com.bradpark.pjhextension.Utils
+package com.bradpark.mylibrary.Utils
 
 import android.app.NotificationManager
 import android.content.Context
@@ -9,7 +9,6 @@ import android.text.TextUtils
 import androidx.core.app.NotificationManagerCompat
 import java.io.File
 import java.util.concurrent.TimeUnit
-import kotlin.collections.ArrayList
 
 class Utils {
 

@@ -1,4 +1,4 @@
-package com.bradpark.pjhextension.Utils
+package com.bradpark.mylibrary.Utils
 
 import android.app.Notification
 import android.app.NotificationChannel
@@ -153,8 +153,9 @@ object NotificationFactory {
                 setContentText(msg)
                 var iconBitmap = BitmapFactory.decodeResource(context.resources, launcher_Id)
                 if (imgUrl != null) {
-                    setLargeIcon(getBitmap(imgUrl)?:iconBitmap)
-                    setStyle(NotificationCompat.BigPictureStyle().bigLargeIcon(null).bigPicture(getBitmap(imgUrl)?:iconBitmap))
+                    setLargeIcon(getBitmap(imgUrl) ?:iconBitmap)
+                    setStyle(NotificationCompat.BigPictureStyle().bigLargeIcon(null).bigPicture(
+                        getBitmap(imgUrl) ?:iconBitmap))
                 } else {
                     setLargeIcon(iconBitmap)
                     setStyle(NotificationCompat.BigPictureStyle().bigLargeIcon(null).bigPicture(iconBitmap))
