@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">My Library</string>
+    <string name="app_name">ui-library</string>
+
+    <string name="btn_cancel">취소</string>
+    <string name="btn_confirm">확인</string>
+    <string name="btn_setting">설정</string>
+    <string name="time_am">오전</string>
+    <string name="time_pm">오후</string>
+    <string name="week_mon">월</string>
+    <string name="week_tue">화</string>
+    <string name="week_wed">수</string>
+    <string name="week_thu">목</string>
+    <string name="week_fri">금</string>
+    <string name="week_sat">토</string>
+    <string name="week_sun">일</string>
+    <string name="everyday">매일</string>
+
 </resources>
