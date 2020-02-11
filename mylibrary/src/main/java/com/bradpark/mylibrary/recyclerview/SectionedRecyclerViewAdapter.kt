@@ -1,15 +1,13 @@
-package com.siwonschool.ui.recyclerview
+package com.bradpark.mylibrary.recyclerview
 
 import android.content.Context
-import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import android.util.SparseArray
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import com.siwonschool.ui.listener.CurriculumCallback
-import com.siwonschool.ui.listener.IntroduceSortClickCallback
+import com.bradpark.mylibrary.listener.CurriculumCallback
+import com.bradpark.mylibrary.listener.IntroduceSortClickCallback
 import java.util.*
 
 

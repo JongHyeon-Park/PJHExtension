@@ -1,4 +1,4 @@
-package com.siwonschool.ui.banner
+package com.bradpark.mylibrary.banner
 
 import android.content.Context
 import androidx.databinding.DataBindingUtil

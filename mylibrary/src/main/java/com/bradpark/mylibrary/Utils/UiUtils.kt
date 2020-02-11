@@ -1,4 +1,4 @@
-package com.siwonschool.ui.Utils
+package com.bradpark.mylibrary.Utils
 
 import android.app.Activity
 import android.content.Context
@@ -15,13 +15,12 @@ import android.text.Spannable
 import android.text.SpannableStringBuilder
 import android.text.style.ForegroundColorSpan
 import android.text.style.StyleSpan
-import android.text.style.TypefaceSpan
 import android.view.View
 import android.view.ViewGroup
 import android.view.WindowManager
 import com.bradpark.mylibrary.R
-import com.siwonschool.ui.dialog.CustomDialog
-import com.siwonschool.ui.listener.SingleChoiceDialogListener
+import com.bradpark.mylibrary.dialog.CustomDialog
+import com.bradpark.mylibrary.listener.SingleChoiceDialogListener
 import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.collections.ArrayList
@@ -424,7 +423,7 @@ class UiUtils {
 
             val layoutParams = WindowManager.LayoutParams()
             layoutParams.copyFrom(dialog.window?.attributes)
-            val dialogWindowHeight = (UiUtils.convertDpToPixels(context, 400f)).toInt()
+            val dialogWindowHeight = (convertDpToPixels(context, 400f)).toInt()
             layoutParams.height = dialogWindowHeight
             dialog.window?.attributes = layoutParams
         }

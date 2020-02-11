@@ -1,4 +1,4 @@
-package com.siwonschool.ui.dialog
+package com.bradpark.mylibrary.dialog
 
 import android.app.Dialog
 import android.content.Context

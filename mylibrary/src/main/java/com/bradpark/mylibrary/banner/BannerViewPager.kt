@@ -1,8 +1,7 @@
-package com.siwonschool.ui.banner
+package com.bradpark.mylibrary.banner
 
 import android.content.Context
 import android.os.Handler
-import androidx.viewpager.widget.ViewPager
 import android.util.AttributeSet
 import android.view.MotionEvent
 import android.view.animation.DecelerateInterpolator

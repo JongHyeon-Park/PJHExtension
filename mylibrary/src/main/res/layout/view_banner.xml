@@ -5,12 +5,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com.siwonschool.ui.banner.BannerViewPager
+        <com.bradpark.mylibrary.banner.BannerViewPager
             android:id="@+id/view_pager"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
-        <com.siwonschool.ui.banner.BannerIndicator
+        <com.bradpark.mylibrary.banner.BannerIndicator
             android:id="@+id/indicator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

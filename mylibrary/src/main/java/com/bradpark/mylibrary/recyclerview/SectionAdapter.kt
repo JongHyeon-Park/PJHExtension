@@ -1,6 +1,5 @@
-package com.siwonschool.ui.recyclerview
+package com.bradpark.mylibrary.recyclerview
 
-import androidx.recyclerview.widget.RecyclerView
 import android.util.SparseArray
 
 abstract class SectionAdapter : androidx.recyclerview.widget.RecyclerView.Adapter<androidx.recyclerview.widget.RecyclerView.ViewHolder>() {

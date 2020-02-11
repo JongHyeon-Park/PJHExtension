@@ -1,4 +1,4 @@
-package com.siwonschool.ui.recyclerview
+package com.bradpark.mylibrary.recyclerview
 
 open class Section(val firstPosition: Int,
                    var title: String,

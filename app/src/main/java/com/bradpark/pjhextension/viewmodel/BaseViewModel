@@ -1,8 +1,0 @@
-class BaseViewModel(application: Application, viewModelController: BaseViewModelController) {
-private val mApplication: Application
-private val mViewModelController: BaseViewModelController
-init {
-    mApplication = application
-    mViewModelController = viewModelController
-    }
-}

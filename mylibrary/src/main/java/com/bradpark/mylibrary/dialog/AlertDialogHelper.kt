@@ -1,4 +1,4 @@
-package com.siwonschool.ui.dialog
+package com.bradpark.mylibrary.dialog
 
 import android.content.Context
 import androidx.databinding.DataBindingUtil

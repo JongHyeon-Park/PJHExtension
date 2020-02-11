@@ -1,4 +1,4 @@
-package com.siwonschool.ui.Utils
+package com.bradpark.mylibrary.Utils
 
 import android.graphics.Color
 import android.text.TextPaint
