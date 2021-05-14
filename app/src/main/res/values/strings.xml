@@ -1,3 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">PJHExtension</string>
+    <string name="app_name">cubeKit</string>
+    <string name="confirm">Confirm</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+
+    <string name="unexpectedException">An unexpected error occurred when connecting to the system.</string>
+
+<!--    SnackBar-->
+    <string name="snack_success">Success</string>
+    <string name="snack_waring">Warning</string>
+    <string name="snack_information">Information</string>
+    <string name="snack_fail">Please contact administrator</string>
+
+    <string name="refresh_content">content</string>
+    <string name="refresh_top">top</string>
+
+    <string-array name="month_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
 </resources>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="color_indicator_active_dot">#80FFFFFF</color>
-    <color name="color_dialog_title">#DE000000</color>
-    <color name="color_dialog_msg">#8A000000</color>
-    <color name="color_dialog_btn">#2E56F0</color>
-</resources>

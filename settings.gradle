@@ -1,2 +1,2 @@
-include ':app', ':mylibrary'
+include ':app'
 rootProject.name='PJHExtension'

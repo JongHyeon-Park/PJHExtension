@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@+id/ll_cube_dialog_button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            style="@style/CubePrimarySecondaryButton"
+            android:id="@+id/bt_bottom_sheet_module_first"
+            android:visibility="gone"
+            android:layout_weight="1"/>
+
+        <Button
+            style="@style/CubePrimaryButton"
+            android:id="@+id/bt_bottom_sheet_module_second"
+            android:visibility="gone"
+            android:layout_weight="1"/>
+
+        <Button
+            style="@style/CubePrimaryButton"
+            android:id="@+id/bt_bottom_sheet_module_third"
+            android:visibility="gone"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+</layout>

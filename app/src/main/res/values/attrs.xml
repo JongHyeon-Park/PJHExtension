@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SimplePullToRefreshLayout">
+        <attr name="max_offset_top" format="dimension"/>
+        <attr name="trigger_offset_top" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="EasyPullLayout_LayoutParams">
+        <attr name="layout_type" format="enum">
+            <enum name="topView" value="0"/>
+            <enum name="content" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="LottiePullToRefreshLayout">
+        <attr name="lottiefile" format="reference" />
+    </declare-styleable>
+</resources>

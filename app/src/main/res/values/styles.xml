@@ -1,11 +1,130 @@
 <resources>
-
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CubeTimePickerStyle"
+        parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:timePickerStyle">@style/TimePicker</item>
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+
+    <style name="TimePicker" parent="android:Widget.Material.Light.TimePicker">
+        <item name="android:timePickerMode">spinner</item>
+    </style>
+
+    <style name="App.Widget.Dialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <!--Button-->
+
+    <style name="CubeDefaultButton" parent="android:Widget.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="CubePrimaryButton" parent="CubeDefaultButton">
+        <item name="android:background">@drawable/radius_3_button_primary</item>
+    </style>
+
+    <style name="CubePrimaryInactiveButton" parent="CubeDefaultButton">
+        <item name="android:background">@drawable/radius_3_primary_inactive</item>
+    </style>
+
+    <style name="CubePrimarySecondaryButton" parent="CubeDefaultButton">
+        <item name="android:background">@drawable/radius_3_button_secondary</item>
+    </style>
+
+    <style name="CubePrimaryTertiaryButton" parent="CubeDefaultButton">
+        <item name="android:background">@drawable/radius_3_button_tertiary</item>
+        <item name="android:textColor">@drawable/tmf_border_button_text_color</item>
+    </style>
+
+    <style name="CubePrimaryDangerButton" parent="CubeDefaultButton">
+        <item name="android:background">@drawable/radius_3_button_danger</item>
+    </style>
+
+    <!--Typography-->
+    <style name="CubeTextView" parent="Widget.AppCompat.TextView">
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="H1" parent="CubeTextView">
+        <item name="android:color">@color/gray10</item>
+        <item name="android:textColor">@color/gray10</item>
+        <item name="android:textSize">40dp</item>
+        <item name="android:fontFamily">@font/noto_sans_cjk_kr_bold</item>
+    </style>
+
+    <style name="H2" parent="CubeTextView">
+        <item name="android:color">@color/gray10</item>
+        <item name="android:textColor">@color/gray10</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:fontFamily">@font/noto_sans_cjk_kr_medium</item>
+    </style>
+
+    <style name="H3" parent="CubeTextView">
+        <item name="android:color">@color/gray10</item>
+        <item name="android:textColor">@color/gray10</item>
+        <item name="android:textSize">21dp</item>
+        <item name="android:fontFamily">@font/noto_sans_cjk_kr_bold</item>
+    </style>
+
+    <style name="Title" parent="CubeTextView">
+        <item name="android:color">@color/gray10</item>
+        <item name="android:textColor">@color/gray10</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:fontFamily">@font/noto_sans_cjk_kr_bold</item>
+    </style>
+
+    <style name="SubTitle" parent="CubeTextView">
+        <item name="android:color">@color/gray10</item>
+        <item name="android:textColor">@color/gray10</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:fontFamily">@font/noto_sans_cjk_kr_bold</item>
+    </style>
+
+    <style name="Body1" parent="CubeTextView">
+        <item name="android:color">@color/gray10</item>
+        <item name="android:textColor">@color/gray10</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:fontFamily">@font/noto_sans_cjk_kr_regular</item>
+    </style>
+
+    <style name="Body2" parent="CubeTextView">
+        <item name="android:color">@color/gray10</item>
+        <item name="android:textColor">@color/gray10</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:fontFamily">@font/noto_sans_cjk_kr_regular</item>
+    </style>
+
+    <style name="Caption1" parent="CubeTextView">
+        <item name="android:color">@color/gray07</item>
+        <item name="android:textColor">@color/gray07</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:fontFamily">@font/noto_sans_cjk_kr_regular</item>
+    </style>
+
+    <style name="Caption2" parent="CubeTextView">
+        <item name="android:color">@color/gray07</item>
+        <item name="android:textColor">@color/gray07</item>
+        <item name="android:textSize">10dp</item>
+        <item name="android:fontFamily">@font/noto_sans_cjk_kr_regular</item>
+    </style>
+
+    <style name="CubeBottomSheetSlideAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+    <style name="CubeDialogFadeAnimation">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
     </style>
 
 </resources>

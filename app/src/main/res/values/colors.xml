@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#0D2A59</color>
+    <color name="colorPrimaryDark">#546788</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+
+    <!-- TMFm-->
+    <color name="snack_success">#0A8844</color>
+
+
+    <color name="red01">#C8423D</color>
+    <color name="red01_press">#DC6C68</color>
+
+    <color name="blue01">#F2F8FF</color>
+    <color name="blue02">#5584FF</color>
+    <color name="blue03">#1A53E8</color>
+
+    <color name="navy">#0D2A59</color>
+
+    <color name="orange">#E19500</color>
+
+    <color name="gray01">#F8F9FA</color>
+    <color name="gray02">#F1F3F5</color>
+    <color name="gray03">#EAECEE</color>
+    <color name="gray04">#DFE2E6</color>
+    <color name="gray05">#CFD4D9</color>
+    <color name="gray06">#AFB5BC</color>
+    <color name="gray07">#888E95</color>
+    <color name="gray08">#606974</color>
+    <color name="gray09">#4A5057</color>
+    <color name="gray10">#353A40</color>
+
+    <color name="black">#353A40</color>
+    <!-- TMFm Button Color -->
+    <color name="tmf_normal_button_press_color">#546788</color>
 </resources>

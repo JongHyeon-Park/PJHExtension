@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    style="@style/Body1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_calendar_day_text"
+    android:layout_width="49dp"
+    android:layout_height="49dp"
+    android:gravity="center"
+    android:textColor="@color/gray08">
+
+</TextView>
