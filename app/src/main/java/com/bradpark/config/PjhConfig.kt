@@ -4,8 +4,8 @@ import android.content.Context
 import android.content.SharedPreferences
 import android.graphics.Color
 import com.bradpark.crypto.ChCrypto
-import extensions.byteArrayToString
-import extensions.stringToByteArray
+import com.bradpark.extensions.byteArrayToString
+import com.bradpark.extensions.stringToByteArray
 import java.util.*
 
 class PjhConfig {

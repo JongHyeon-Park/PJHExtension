@@ -1,4 +1,4 @@
-package extensions
+package com.bradpark.extensions
 
 import androidx.fragment.app.Fragment
 

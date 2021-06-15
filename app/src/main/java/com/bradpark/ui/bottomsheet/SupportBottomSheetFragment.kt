@@ -103,10 +103,10 @@ class SupportBottomSheetFragment(private val mBottomSheetType: PjhConfig.PjhBott
             val params = layoutParams as CoordinatorLayout.LayoutParams
             val displayMetrics = requireActivity().resources.displayMetrics
             val calcHeight = (displayMetrics.heightPixels -  PjhUi.convertDpToPixels(context!!, 64f)).toInt()
+            layout.updateLayoutParams { height = ViewGroup.LayoutParams.WRAP_CONTENT }
             viewTreeObserver.addOnPreDrawListener(object : ViewTreeObserver.OnPreDrawListener {
                 override fun onPreDraw(): Boolean {
-                    layout.updateLayoutParams { height = ViewGroup.LayoutParams.WRAP_CONTENT }
-                    if (layout.height > calcHeight) {
+                    if (layout.height >= calcHeight) {
                         params.height = calcHeight
                         layout.layoutParams = params
                     }

@@ -1,4 +1,4 @@
-package extensions
+package com.bradpark.extensions
 
 val String.stringToByteArray: ByteArray
     get() {

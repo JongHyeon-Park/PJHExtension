@@ -3,6 +3,7 @@ package extensions
 import android.app.Activity
 import android.util.DisplayMetrics
 import android.view.View
+import com.bradpark.extensions.hideKeyboard
 
 /**
  * 화면 사이즈 구하기
